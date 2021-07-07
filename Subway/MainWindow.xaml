@@ -1,0 +1,31 @@
+﻿<Window x:Class="Subway.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Subway"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <RadioButton x:Name="b1" Content="Wheat" HorizontalAlignment="Left" Margin="67,88,0,0" VerticalAlignment="Top" GroupName="Bread"/>
+        <RadioButton x:Name="b2" Content="Italian" HorizontalAlignment="Left" Margin="65,123,0,0" VerticalAlignment="Top" GroupName="Bread"/>
+        <RadioButton x:Name="b3" Content="Flat Bread (+ $.50)" HorizontalAlignment="Left" Margin="67,165,0,0" VerticalAlignment="Top" GroupName="Bread"/>
+        <RadioButton x:Name="m1" Content="Ham" HorizontalAlignment="Left" Margin="221,88,0,0" VerticalAlignment="Top" GroupName="Meat"/>
+        <RadioButton x:Name="m2" Content="Roasted Chicken" HorizontalAlignment="Left" Margin="221,123,0,0" VerticalAlignment="Top" GroupName="Meat"/>
+        <RadioButton x:Name="m3" Content="MeatBall (+ $1.00)" HorizontalAlignment="Left" Margin="221,165,0,0" VerticalAlignment="Top" GroupName="Meat"/>
+        <RadioButton x:Name="m4" Content="Steak (+ $1.50)" HorizontalAlignment="Left" Margin="221,205,0,0" VerticalAlignment="Top" GroupName="Meat"/>
+        <RadioButton x:Name="sub6" Content="Six Inch Sub ( $3.50)" HorizontalAlignment="Left" Margin="231,30,0,0" VerticalAlignment="Top" GroupName="Sub"/>
+        <RadioButton x:Name="subft" Content="Foot Long Sub ( $5.00)" HorizontalAlignment="Left" Margin="400,30,0,0" VerticalAlignment="Top" GroupName="Sub"/>
+        <CheckBox x:Name="c1" Content="American (+ $.25)" HorizontalAlignment="Left" Margin="384,91,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="c2" Content="Swiss (+ $.30)" HorizontalAlignment="Left" Margin="384,130,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="c3" Content="Pepper Jack (+ $.75)" HorizontalAlignment="Left" Margin="384,177,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="v1" Content="Cucumber" HorizontalAlignment="Left" Margin="526,92,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="v5" Content="All (+ $.50)" HorizontalAlignment="Left" Margin="526,251,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="v3" Content="Lettuce (+ $.15)" HorizontalAlignment="Left" Margin="526,177,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="v2" Content="Green Pepper (+ $.25)" HorizontalAlignment="Left" Margin="526,133,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="v4" Content="Red Onion (+ $.10)" HorizontalAlignment="Left" Margin="526,217,0,0" VerticalAlignment="Top"/>
+        <Button Content="Order" HorizontalAlignment="Left" Margin="125,335,0,0" VerticalAlignment="Top" Width="334" Height="57" Click="Button_Click"/>
+        <Label x:Name="lbl" Content="Label" HorizontalAlignment="Left" Margin="586,335,0,0" VerticalAlignment="Top" Width="142"/>
+
+    </Grid>
+</Window>
